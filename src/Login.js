@@ -27,10 +27,12 @@ function Login() {
           src="https://www.logo.wine/a/logo/Facebook/Facebook-Logo.wine.svg"
           alt=""
         />
+        <h2 className="disclaimer">Disclaimer: This is a clone of Facebook for my Portfolio at www.joshuaadamwilson.com <br />THIS IS NOT FACEBOOK</h2>
       </div>
         <Button type="submit" onClick={signIn}>
           Sign In
         </Button>
+        
     </div>
   )
 }
